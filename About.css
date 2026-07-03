@@ -1,0 +1,41 @@
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    background-image: url("1.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;   
+    background-attachment: fixed;  
+}
+
+
+#b {
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;  
+    align-items: flex-start;    
+    text-align: top;
+    padding: 20px;
+
+}
+
+
+#b h2 {
+    color: #222;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#b p
+
+{
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.6;
+    background: plum;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px hotpink;
+}

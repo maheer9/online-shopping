@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY ORDERS</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: url('1.jpg') no-repeat center center/cover;
+      
+    }    
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .order-card {
+      background: blanchedalmond;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 14px;
+    }
+
+    .order-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .status {
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      color: white;
+    }
+
+    .delivered {
+      background: tomato;
+    }
+
+    .pending {
+      background: blue;
+    }
+
+    .order-body {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .order-body img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 6px;
+      background: violet;
+    }
+
+    .details h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .details p {
+      font-size: 12px;
+      margin: 2px 0;
+    }
+
+    .order-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+
+    button {
+      padding: 5px 10px;
+      font-size: 12px;
+      border: none;
+      background: hotpink;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background:  brown;
+    }
+
+    
+    @media (max-width: 600px) {
+      .order-body img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>MY ORDERS</h1>
+     <div class="order-card">
+      <div class="order-header">
+        <span>ORDER #12678</span>
+        <span class="status delivered">DELIVERED</span>
+      </div>
+
+      <div class="order-body">
+        <img src="shopping.webp" alt="product">
+        <div class="details">
+          <h3>WIRELESS HEADPHONES</h3>
+          <p>QUANTITY: 1</p>
+          <p>PRICE: ₹299</p>
+        </div>
+      </div>
+
+      <div class="order-footer">
+        <span>DELIVERED ON: 20 Apr 2026</span>
+        <button>VIEW DETAILS</button>
+      </div>
+    </div>
+
+    
+    <div class="order-card">
+      <div class="order-header">
+        <span>ORDER #12346</span>
+        <span class="status pending">PENDING</span>
+      </div>
+
+      <div class="order-body">
+        <img src="smart.webp" alt="product">
+        <div class="details">
+          <h3>SMART WATCH</h3>
+          <p>QUANTITY: 2</p>
+          <p>PRICE: ₹4,499</p>
+        </div>
+      </div>
+
+      <div class="order-body">
+        <img src="clogs.webp" alt="product">
+        <div class="details">
+          <h3>LIGHTWEIGHT CLOG</h3>
+          <p>QUANTITY: 2</p>
+          <p>PRICE: ₹1,499</p>
+        </div>
+      
+      </div>
+
+      <div class="order-footer">
+        <span>EXPECTED: 28 Apr 2026</span>
+        <button>TRACK ORDER</button>
+      </div>
+    </div>
+
+
+
+</body>
+</html>

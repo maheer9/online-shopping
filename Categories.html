@@ -1,0 +1,123 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIPCART</title>
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color:plum
+                }
+
+        header {
+            background-color:aquamarine;
+            color: lavenderblush;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color:bisque;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px greenyellow;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CAREFUL CRAFTS CLUBS</h1>
+</header>
+
+<div class="container">
+    <h2>CHOOSE THE DESIGNS</h2>
+
+    <div class="categories">
+
+        <div class="card">
+            <img src="img2.jpg" alt="WOMEN WESTERN WEAR">
+            <h3>WOMEN WESTERN WEAR</h3>
+        </div>
+
+        <div class="card">
+            <img src="img4.jpg" alt="KITCHEN ">
+            <h3>KITCHEN</h3>
+        </div>
+
+        <div class="card">
+            <img src="img5.jpg" alt="MAKE UP">
+            <h3>BEAUTY PRODUCTS</h3>
+        </div>
+
+        <div class="card">
+            <img src="img9.jpg" alt="LEHENGAA">
+            <h3>LEHENGAA</h3>
+        </div>
+
+        <div class="card">
+            <img src="img8.jpg" alt="BOOKS">
+            <h3>BOOKS</h3>
+        </div>
+
+        <div class="card">
+            <img src="img6.jpg" alt="WOMEN SHOES">
+            <h3>SHOES</h3>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; ONLINE SHOPPING 2026</p>
+</footer>
+
+</body>
+</html>

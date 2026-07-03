@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        background: url('1.jpg') no-repeat center/cover;
+    }
+
+  
+    .top-heading {
+        position: absolute;
+        top: 20px;
+        text-align: center;
+        color: darkmagenta;
+        font-size: 28px;
+    }
+
+    .container {
+        background:lavender;
+        padding: 35px;
+        width: 350px;
+        border-radius: 40px;
+        color: black;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .input-box {
+        margin-bottom: 15px;
+    }
+
+    .input-box input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .input-box input:focus {
+        border: 2px solid #00c3ff;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background: darkcyan;
+        border: none;
+        border-radius: 5px;
+        color:black;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #009edb;
+    }
+
+    .footer {
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer a {
+        color: #00c3ff;
+        text-decoration: none;
+    }
+</style>
+
+</head>
+
+<body>
+
+<h1 class="top-heading">PLEASE LOGIN HERE</h1>
+
+<div class="container">
+    <h1>LOGIN</h1>
+
+<form action="home.html">
+    <div class="input-box">
+        <input type="text" placeholder="Enter Username" required>
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="Enter Password" required>
+    </div>
+
+    <button type="submit">LOGIN</button>
+</form>
+
+<div class="footer">
+    DON'T HAVE AN ACCOUNT? <a href="signup.html">Sign Up</a>
+</div>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 60px;
+        background: url('1.jpg') no-repeat center/cover;
+    }
+
+    .container {
+        background: lavender;
+        padding: 40px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        text-align: center;
+        color: black;
+    }
+
+    .container h1 {
+        margin-bottom: 20px;
+    }
+
+    .input-box {
+
+        margin: 10px 0;
+    }
+
+    .input-box input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .input-box input:focus {
+
+        border: 2px solid #00c3ff;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background: darkcyan;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #009edb;
+    }
+
+    .footer {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .footer a {
+        color: #00c3ff;
+        text-decoration: none;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+<div class="container">
+    <h1>CREATE YOUR ACCOUNT</h1>
+
+
+<form action="login.html">
+    <div class="input-box">
+        <input type="text" placeholder="ENTER USERNAME" required>
+    </div>
+
+    <div class="input-box">
+        <input type="email" placeholder="ENTER EMAIL" required>
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="ENTER PASSWORD" required>
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="CONFIRM PASSWORD" required>
+    </div>
+
+    <button type="submit">SIGN UP</button>
+</form>
+
+<div class="footer">
+    ALREADY HAVE AN ACCOUNT? <a href="login.html">Login</a>
+</div>
+
+
+</div>
+
+</body>
+</html>
